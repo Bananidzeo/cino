@@ -1,0 +1,164 @@
+header,
+footer {
+  background: #eec84d;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  background-color: #eec84d;
+}
+
+#menu1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
+#menu1 ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+#menu1 ul li {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+#menu1 ul li a {
+  font-family: 'Roboto', sans-serif;
+  padding: 9px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+  display: inline-block;
+ transition: transform 0.3s;
+}
+
+#menu1 ul li a:hover{
+transform: scale(1.1) rotate(-5deg);
+color: orange(188, 88 ,16);
+}
+
+#menu1 ul li ul {
+  position: absolute;
+  top: 36px;
+  display: none;
+  width: 200px;
+  background: #eec84d;
+}
+
+#menu1 ul li:hover ul {
+  display: block;
+}
+
+#menu1 ul li ul li {
+  float: none;
+  width: 100%;
+}
+
+#menu1 ul li ul li a {
+  padding: 7px 25px;
+  color: grey;
+  border-top: 1px solid grey;
+}
+
+
+main {
+  padding: 10px;
+  background-color: grey;
+}
+
+.posts {
+  display: flex;
+}
+
+.post {
+  display: flex;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+
+}
+
+.post img {
+  margin: 20px;
+ transition: transform 0.5s;
+}
+.post-info{
+  color: grey;
+}
+
+.post img:hover{
+  transform: rotate(360deg);
+}
+
+
+
+.carousele {
+  margin: 10px;
+  max-width: 100%; 
+ 
+}
+.carousele-element {
+  margin: 40px;
+}
+.carousele div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.slick-prev, .slick-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.slick-dots li button:before {
+  color: #000;
+  font-size: 30px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+
+.post p{
+font-family: 'Embed code', sans-serif;
+
+}
+
+.posts{
+  display:flex;
+}
+
+.nav{
+display: flex;
+
+}
+.video{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
+
+
+
+
